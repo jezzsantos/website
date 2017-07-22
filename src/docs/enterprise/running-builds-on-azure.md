@@ -116,7 +116,7 @@ Please note that in this document we use **Windows Server 2012 R2 Datacenter** V
 * Press **OK**
 * In **Choose a size** *blade* select VM size. We recommend **DS** series or better.
 * In **Settings** *blade*
-    * Select storage account created earlier (**appveyorbuildsa** in our example)
+    * Select 'No' for **Manage Disks**, and select storage account created earlier (**appveyorbuildsa** in our example)
     * Save Network security group (should look like **appveyor-build-nsg** in our example) in your deployment notes as **Security group name**
     * Leave other settings as they set by default and press **OK**
 * After validation passed, press **OK** and wait while VM deployed
